@@ -1,0 +1,87 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-118127-17856-1n6ezzv.c73x22zkt9/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-118127-17856-1n6ezzv.c73x22zkt9/package.tgz",
+        "spec": "/tmp/d-118127-17856-1n6ezzv.c73x22zkt9/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-118127-17856-3s7jao.b4afijatt9"
+    ]
+  ],
+  "_from": "../d-118127-17856-1n6ezzv.c73x22zkt9/package.tgz",
+  "_id": "ide-haskell-hoogle@0.1.2",
+  "_inCache": true,
+  "_location": "/ide-haskell-hoogle",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-118127-17856-1n6ezzv.c73x22zkt9/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-118127-17856-1n6ezzv.c73x22zkt9/package.tgz",
+    "spec": "/tmp/d-118127-17856-1n6ezzv.c73x22zkt9/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-118127-17856-1n6ezzv.c73x22zkt9/package.tgz",
+  "_shasum": "1818568e4c7c2978e8919ffe6d41adb0cde53ed6",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-118127-17856-1n6ezzv.c73x22zkt9/package.tgz",
+  "_where": "/tmp/apm-install-dir-118127-17856-3s7jao.b4afijatt9",
+  "bugs": {
+    "url": "https://github.com/atom-haskell/ide-haskell-hoogle/issues"
+  },
+  "dependencies": {
+    "atom-highlight": "^0.3.0",
+    "atom-select-list": "^0.3.2",
+    "atom-space-pen-views": "^2.0.3",
+    "core-decorators": "^0.19.0",
+    "etch": "^0.12.5",
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.4"
+  },
+  "description": "Show hoogle information for symbol under cursor",
+  "deserializers": {
+    "HoogleDocView": "createDocView",
+    "HoogleWebView": "createWebView"
+  },
+  "devDependencies": {
+    "@types/core-decorators": "^0.10.32",
+    "@types/electron": "^1.6.10",
+    "@types/node": "^8.0.14",
+    "@types/request-promise-native": "^1.0.6",
+    "atom-haskell-tslint-rules": "0.0.7",
+    "tslint": "^5.6.0",
+    "typedoc": "^0.7.1",
+    "typescript": "^2.4.0"
+  },
+  "engines": {
+    "atom": ">=1.13.0 <2.0.0"
+  },
+  "homepage": "https://github.com/atom-haskell/ide-haskell-hoogle#readme",
+  "keywords": [
+    "ide-haskell",
+    "ide",
+    "haskell",
+    "help",
+    "hoogle"
+  ],
+  "license": "MIT",
+  "main": "./lib/ide-haskell-hoogle",
+  "name": "ide-haskell-hoogle",
+  "optionalDependencies": {},
+  "readme": "# IDE-Haskell Hoogle\n\n***This package is in alpha***\n\nShow hoogle information for symbol under cursor\n\n![image](https://cloud.githubusercontent.com/assets/7275622/19613091/0ff65a68-97f3-11e6-9dad-3546a47d3f13.png)\n\n## Setup and usage\n\nPlease refer to https://atom-haskell.github.io/extra-packages/ide-haskell-hoogle/\n\n## TODO\n\n* [x] Show documentation for symbol\n* [x] Show web documentation\n* [ ] Auto-guess module for symbol\n* [ ] Typed searches\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atom-haskell/ide-haskell-hoogle.git"
+  },
+  "version": "0.1.2"
+}

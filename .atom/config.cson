@@ -1,0 +1,17 @@
+"*":
+  "exception-reporting":
+    userId: "2b78aa9f-8e20-4f75-9df7-c62cb0d0c534"
+  "haskell-ghc-mod":
+    onChangeCheck: true
+    onChangeLint: true
+    onSelectionShow: "typeAndInfo"
+  "ide-haskell":
+    onCursorMove: "Show Tooltip"
+    onSavePrettify: true
+  "platformio-ide-terminal":
+    core: {}
+    style:
+      fontFamily: "Knack Nerd Font"
+      theme: "one-dark"
+    toggles:
+      autoClose: true
