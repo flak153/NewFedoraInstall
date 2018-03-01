@@ -1,3 +1,0 @@
-'atom-text-editor':
-  'f1': 'ide-haskell-hoogle:show-doc-for-symbol'
-  'shift-f1': 'ide-haskell-hoogle:show-web-doc-for-symbol'
