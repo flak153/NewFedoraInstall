@@ -1,6 +1,6 @@
 htop
 gnome-tweak-tool
-KeepassXC
+keepassxc
 atom
 vlc
 curl

@@ -1,1 +1,3 @@
-cat ../DNF_Packages | xargs dnf -y install
+#!/bin/sh
+
+cat ../DNF_Packages.txt | xargs dnf -y install
