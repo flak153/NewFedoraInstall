@@ -1,11 +1,12 @@
 htop
 gnome-tweak-tool
 keepassxc
-atom
 vlc
 curl
 git
+deluge
 zsh
 parallel
 spotify-client
 hack-fonts
+util-linux-user
